@@ -1,0 +1,51 @@
+[
+    {
+        "action": "verify_with_source",
+        "completed_at": "2023-08-22T16:58:37+05:30",
+        "created_at": "2023-08-22T16:58:37+05:30",
+        "group_id": "186c18d9-1a8d-43df-9296-bb90dd2d7038",
+        "request_id": "de53ed2f-fe01-4e39-8d10-4c0482fda811",
+        "result": {
+            "source_output": {
+                "address": "H NO 713/10 SEC 11 KATARIYA COLONY, Panipat (M Cl + OG), Panipat,HR",
+                "badge_details": null,
+                "card_serial_no": null,
+                "city": null,
+                "cov_details": [
+                    {
+                        "category": null,
+                        "cov": "LMV",
+                        "issue_date": "2022-03-19"
+                    },
+                    {
+                        "category": null,
+                        "cov": "MCWG",
+                        "issue_date": "2022-03-19"
+                    }
+                ],
+                "date_of_issue": "2022-03-19",
+                "date_of_last_transaction": null,
+                "dl_status": null,
+                "dob": "2002-08-18",
+                "face_image": null,
+                "gender": null,
+                "hazardous_valid_till": null,
+                "hill_valid_till": null,
+                "id_number": "HR0620220002174",
+                "issuing_rto_name": "RLA PANIPAT (NT)",
+                "last_transacted_at": null,
+                "name": "YASH ARORA",
+                "nt_validity_from": "2022-03-19",
+                "nt_validity_to": "2042-08-17",
+                "relatives_name": "RAJNISH  KUMAR",
+                "source": "government_website",
+                "status": "id_found",
+                "t_validity_from": null,
+                "t_validity_to": null
+            }
+        },
+        "status": "completed",
+        "task_id": "e405aa1d-1593-4826-b183-61f441d44727",
+        "type": "ind_driving_license"
+    }
+]

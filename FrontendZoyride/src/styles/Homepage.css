@@ -1,0 +1,295 @@
+.banner-img {
+  margin-top: 50px;
+}
+
+.home-page h1 {
+  color: gray;
+  font-family: "Playfair Display", serif;
+}
+/* Add this in your CSS file */
+.unavailable-card {
+  filter: blur(3px); /* Apply blur effect */
+  opacity: 0.9; /* Reduce opacity for a faded look */
+}
+
+.unavailable-content {
+  opacity: 1; /* Bring back opacity for content inside the blurred card */
+}
+
+.unavailable-button {
+  pointer-events: none; /* Disable button clicks */
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-page .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+}
+.home-page .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-page .card-price {
+  color: green;
+  font-weight: bold;
+}
+.home-page button {
+  border-radius: 4;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.home-page .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.home-page .card img:hover {
+  transform: scale(0.9);
+}
+
+.home-page .card-img-top {
+  height: 300px !important;
+}
+/* ==================
+filters
+============== */
+.filters h4 {
+  margin-top: 100px;
+  color: gray !important;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+}
+
+.ant-checkbox-wrapper:first-of-type {
+  margin-left: 8px;
+}
+
+.ant-checkbox-wrapper {
+  margin: 2px;
+}
+.ant-radio-wrapper {
+  margin-bottom: 5px !important;
+  margin-left: 10px;
+}
+
+.filters button {
+  background-color: black;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  margin-top: 20px;
+}
+
+.loadmore {
+  color: green;
+  font-weight: bold;
+  font-size: 20px !important;
+}
+.banner {
+  background-image: url("https://images.hindustantimes.com/img/2021/10/10/1600x900/cb1a66c6-29e4-11ec-b7f8-760cd0963677_1633891499458.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vmin;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(7, 7, 7);
+}
+.carousel-container {
+  width: 100%;
+  /* height: 100%; */
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px; /* Adjust this value according to your design */
+}
+
+.carousel-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Style the carousel images */
+.react-responsive-carousel .carousel .slider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Customize navigation arrows */
+.react-responsive-carousel .carousel .control-arrow {
+  font-size: 24px;
+  color: #333; /* Customize arrow color */
+}
+
+/* Apply hover effect to navigation arrows */
+.react-responsive-carousel .carousel .control-arrow:hover {
+  color: #555; /* Customize hover color */
+}
+
+/* Hide indicators (dots) */
+.react-responsive-carousel .carousel .carousel-slider .control-dots {
+  display: none;
+}
+
+.banner > h1 {
+  margin: 5vmax;
+  margin-left: 50vmax;
+  margin-top: 35vmax;
+  z-index: 1;
+
+  font: 600 2.5vmax "Roboto";
+}
+
+.banner > p {
+  margin-left: 50vmax;
+  font: 300 1.4vmax "Lucida Sans";
+}
+
+.banner > a > button {
+  margin-bottom: 5vmax;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 0;
+  margin-left: 30vmax;
+
+  padding: 1vmax;
+  transition: all 0.5s;
+  width: 9vmax;
+  font: 500 1vmax "Roboto";
+}
+.banner > a > button:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+
+.banner::after {
+  content: "";
+  width: 100vw;
+  height: 100vmin;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0%;
+  left: 0;
+  clip-path: polygon(100% 68%, 0 100%, 100% 100%);
+  max-width: 100%;
+}
+
+.homeHeading {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.4vmax;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+  width: 20vmax;
+  padding: 1vmax;
+  margin: 5vmax auto;
+  color: rgb(0, 0, 0, 0.7);
+}
+
+.container {
+  display: flex;
+  margin: 2vmax auto;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.productCard {
+  width: 14vmax;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+}
+
+.productCard > img {
+  width: 14vmax;
+}
+
+.productCard > div {
+  margin: 0.5vmax;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.productCardSpan {
+  margin: 0.5vmax;
+  font: 300 0.7vmax "Roboto";
+}
+
+.productCard > p {
+  font-family: "Roboto";
+  font-size: 1.2vmax;
+  margin: 1vmax 0.5vmax;
+  margin-bottom: 0;
+}
+
+.productCard > span {
+  margin: 0.5vmax;
+  color: tomato;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1vmax;
+}
+
+.productCard:hover {
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+
+  transform: translateY(-1vmax);
+}
+
+@media screen and (max-width: 600px) {
+  .banner > h1 {
+    margin: 5vmax;
+    margin-left: 37vmax;
+    margin-top: 30vmax;
+    z-index: 1;
+
+    font: 600 2.3vmax "Roboto";
+  }
+  .productCard > p {
+    font-size: 1.7vmax;
+  }
+
+  .productCard > div {
+    margin: 0vmax;
+    display: block;
+  }
+
+  .productCard > span {
+    font-size: 1.5vmax;
+  }
+
+  .productCard > div > span {
+    margin: 0 0.5vmax;
+    font: 300 1vmax "Roboto";
+  }
+}
